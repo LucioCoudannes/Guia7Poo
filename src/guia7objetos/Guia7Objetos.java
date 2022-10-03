@@ -7,8 +7,7 @@ package guia7objetos;
 
 import Servicios.LibroService;
 import guia7objetos.entidades.Libro;
-import guia7objetos.entidades.Mascota;
-import guia7objetos.entidades.Usuario;
+
 import java.util.Scanner;
 
 /**
@@ -22,7 +21,7 @@ public class Guia7Objetos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //Scanner leer = new Scanner(System.in).useDelimiter("\n");
+        Scanner leer = new Scanner(System.in).useDelimiter("\n");
 
         LibroService ls = new LibroService();
         
